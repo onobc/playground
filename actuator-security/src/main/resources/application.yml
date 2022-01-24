@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: loggers,health
+    loggers:
+      enabled: true
+    health:
+      enabled: true
+
+spring:
+  security:
+    user:
+      name: foo
+      password: bar
+
